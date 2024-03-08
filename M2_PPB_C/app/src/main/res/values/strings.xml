@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">M2_PPB_C</string>
+    <string name="judul">KALKULATOR LUAS</string>
+    <string name="luas">Luas</string>
+    <string name="lebar">Lebar</string>
+    <string name="panjang">Panjang</string>
+    <string name="hitung">Hitung</string>
+</resources>

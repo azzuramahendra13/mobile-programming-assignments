@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#C9C2AD"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="128dp"
+        android:text="@string/judul"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/rectangle"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/rectangle" />
+
+    <EditText
+        android:id="@+id/edt_lebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@id/rectangle"
+        android:hint="@string/lebar"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="#303030"
+        android:backgroundTint="@color/black" />
+
+    <EditText
+        android:id="@+id/edt_panjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/panjang"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="#303030"
+        android:backgroundTint="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_luas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="24sp"
+        android:text="@string/luas"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="100dp"
+        android:text="@string/hitung"
+        android:textColor="@color/white"
+        android:backgroundTint="#6A6B83" />
+
+</RelativeLayout>
