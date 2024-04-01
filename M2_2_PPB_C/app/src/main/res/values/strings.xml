@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">M2_2_PPB_C</string>
+    <string name="petunjuk">Harap masukkan ekspresi matematika</string>
+    <string name="petunjuk_input">Ketik di sini</string>
+    <string name="btn_hitung">HITUNG</string>
+    <string name="btn_keluar">KELUAR</string>
+    <string name="tv_hasil">HASIL</string>
+    <string name="tv_hasil_angka">-</string>
+</resources>

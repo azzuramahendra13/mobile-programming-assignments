@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/petunjuk"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edt_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_hint"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="30dp"
+        android:gravity="center"
+        android:hint="@string/petunjuk_input"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="#969696"
+        android:backgroundTint="@color/black" />
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_input"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/btn_hitung"
+        android:textColor="@color/white"
+        android:backgroundTint="#6A6B83" />
+
+    <Button
+        android:id="@+id/btn_keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_input"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/btn_keluar"
+        android:textColor="@color/white"
+        android:backgroundTint="#6A6B83" />
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_keluar"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/tv_hasil"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_hasil_angka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_hasil"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/tv_hasil_angka"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Database_M5_PPB_C</string>
+    <string name="judul">DATABASE MAHASISWA</string>
+    <string name="nrp">NRP</string>
+    <string name="nama">Nama</string>
+    <string name="hint_inp_nrp">Masukkan NRP</string>
+    <string name="hint_inp_nama">Masukkan nama</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="btn_ambil">Ambil</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_hapus">Hapus</string>
+</resources>
