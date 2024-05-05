@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dialog_M6_PPB_C</string>
+    <string name="buka_dialog_input">Buka Dialog Input</string>
+    <string name="masukkan_nama">Masukkan nama</string>
+    <string name="ketikkan_teks">Ketikkan teks...</string>
+    <string name="ok">OK</string>
+    <string name="batal">Batal</string>
+</resources>

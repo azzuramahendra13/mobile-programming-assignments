@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ListView_M7_PPB_C</string>
+    <string name="kontak">KONTAK</string>
+    <string name="menambah_data">Menambah data</string>
+    <string name="nama">Nama</string>
+    <string name="nomor_hp">Nomor HP</string>
+    <string name="ikon_kontak">Ikon kontak</string>
+    <string name="mencari_data">Mencari data</string>
+    <string name="mengedit_data">Mengedit data</string>
+    <string name="menghapus_data">Menghapus data</string>
+    <string name="membuka_telepon">Membuka telepon</string>
+    <string name="masukkan_nama">Masukkan nama&#8230;</string>
+    <string name="masukkan_nomor_hp">Masukkan nomor HP&#8230;</string>
+    <string name="ok">OK</string>
+    <string name="batal">Batal</string>
+    <string name="tutup">Tutup</string>
+    <string name="hapus_kontak_message">Hapus kontak?</string>
+</resources>
