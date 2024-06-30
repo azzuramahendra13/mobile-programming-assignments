@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kamera_Server_M10_PPB_C</string>
+    <string name="ambil_gambar">AMBIL GAMBAR</string>
+    <string name="hasil">Hasil</string>
+    <string name="kirim_gambar">KIRIM GAMBAR</string>
+    <string name="kirim_gambar_ke_server">Kirim gambar ke server?</string>
+    <string name="konfirmasi">Konfirmasi</string>
+</resources>
